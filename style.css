@@ -1,0 +1,148 @@
+@font-face {
+    font-family: '';
+    src: url();
+}
+*{
+    font-style: inherit;
+    text-transform: uppercase;
+}
+header{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    font-size: 12px;
+    font-weight: 500;
+}
+.left-logo img{
+    width:200px ;
+    height: auto;
+    margin: 15px 40px;
+    
+   
+}
+.center-logo{
+    display: flex;
+    color: aliceblue;
+    gap: 30px;
+    ;
+}
+.right-logo{
+    color: aliceblue;
+    display: flex;
+    margin-left: 180px;
+    gap: 25px;
+}
+.videobanner video{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    
+
+}
+body{
+    margin: 0px ;
+}
+.videobanner{
+    position: relative;
+    display: flex;
+}
+.banner-video-text{
+    color: aliceblue;
+    position: absolute;
+    top: 320px;
+    left: 55px;
+}
+.fist{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.secound{
+    font-size:42px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.banner-video-text button{
+    margin-top: 30px;
+    padding: 18px 44px;
+    background-color: transparent;
+    border: solid white 2px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.imagebanner{
+    background-size: cover;
+
+height: 100vh;
+margin-top: 0px;
+    background-image: url(image/Desktop_homepage_081e5f424b.jpg);
+}
+
+.banner-image-text{
+    color: aliceblue;
+    padding-top: 320px;
+    padding-left: 55px;
+}
+.img-fist{
+    background-size: cover;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.img-secound{
+    background-size: cover;
+    font-size:42px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.banner-image-text button{
+    margin-top: 30px;
+    padding: 18px 44px;
+    background-color: transparent;
+    border: solid white 2px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.imagebanner-secound{
+    background-size: cover;
+    
+    height: 100vh;
+    background-image: url(image/Launch_Page_Starlink1_vertical_18_DESKTOP_3d33146ef8.jpg);
+}
+.imagebanner-third{
+    background-size: cover;
+    
+    height: 100vh;
+    background-image: url(image/Sirius_XM_9_LIFTOFF_REMOTE_INSIDE_PAD_ENGINE_H_FS_desktop_069b9cb320.jpg);
+}
+.imagebanner-fourth{
+    background-size: cover;
+
+    height: 100vh;
+    background-image: url(image/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+}
+.imagebanner-fifth{
+    background-size: cover;
+    
+    height: 100vh;
+    background-image: url(image/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer-text{
+    font-size: 12px;
+    display: flex;
+    color: aliceblue;
+    gap: 30px;
+    
+}
